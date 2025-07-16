@@ -16,7 +16,7 @@ const projects: Project[] = [
     name: "Url Shortener",
     description: "A simple URL shortener built with .NET and Angular.",
     url: "https://linky-k66rxg3pw-marcosferreira17.vercel.app",
-    imageUrl: "/../../assets/projects/url-shortener.png",
+    imageUrl: "/projects/linky.png",
     githubUrl: "https://github.com/marcoswferreira/url-shortener-api",
     technologies: (
       <div className="flex items-center gap-x-3">

@@ -84,8 +84,8 @@ export default function HomePage() {
         </div>
         <div className="flex flex-col gap-2">
           <a
-            href="/marcos-ferreira-cv.pdf"
-            download="Marcos-Ferreira-CV.pdf"
+            href="/marcos-ferreira-cv-pt.pdf"
+            download="marcos-ferreira-cv-pt.pdf"
             className="flex flex-row items-center justify-center gap-3 rounded bg-sky-300 p-4 text-sky-800 ring-1 ring-sky-500 transition-all sm:hover:bg-sky-400 dark:bg-inherit dark:text-sky-500 dark:ring-sky-500 sm:sm:dark:hover:bg-zinc-800"
           >
             <span className="text-nowrap">Download my CV</span>
