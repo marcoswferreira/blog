@@ -55,9 +55,9 @@ export default function HomePage() {
   return (
     <div className="flex flex-col gap-6">
       <p className="text-sm">
-        London-based Brazilian obsessed with UI for a decade. Working as a
-        Software Engineer for half that time. I love Raycast, TailwindCSS,
-        DJing, playing football, and creating pretty websites.
+        My name is Marcos, and I am 26 years old. With over 4 years of experience in software development within large, 
+        critically important environments, I bring a strong background in building robust and scalable applications
+        that meet specific client requirements.
       </p>
       <div className="divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-400 dark:divide-zinc-500 dark:ring-zinc-500">
         {externalLinks.map((link: Link) => (
