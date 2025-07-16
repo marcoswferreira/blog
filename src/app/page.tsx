@@ -54,11 +54,9 @@ const ExternalLink = (link: Link) => {
 export default function HomePage() {
   return (
     <div className="flex flex-col gap-6">
-      <p className="text-sm">
-        Hi there. For me, software development is all about bringing ideas to life.
-        Over the past five years, I've enjoyed doing just that, working on large-scale projects with a focus on backend tech and cloud computing with Azure.
-        I believe in the power of sharing knowledge and am always excited to connect.
-      </p>
+      <p className="text-sm">Hi there. For me, software development is all about bringing ideas to life.</p>
+      <p className="text-sm">Over the past five years, I have enjoyed doing just that, working on large-scale projects with a focus on backend tech and cloud computing with Azure.</p>
+      <p className="text-sm">I believe in the power of sharing knowledge and am always excited to connect.</p>
       <div className="divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-400 dark:divide-zinc-500 dark:ring-zinc-500">
         {externalLinks.map((link: Link) => (
           <ExternalLink key={link.url} {...link} />
